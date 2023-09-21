@@ -136,7 +136,9 @@ function App() {
       </Button>
     </Form>
 
-
+    <footer style={{ marginTop: '20px', textAlign: 'center' }}>
+        <p>&copy; {new Date().getFullYear()} Your Company Name</p>
+      </footer>
     </div>
   
   );
